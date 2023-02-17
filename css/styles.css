@@ -1,4 +1,13 @@
-.container{margin: 0 auto;
-    border: 1px solid black;
-    width: 720px;
-}
+body {padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;}
+a {text-decoration: none;}
+.container{
+    overflow:hidden; /* указывается у родителя если у ребенка указан float */
+    margin:0 auto;
+    width:1170px;
+    padding:0 15px;}
+    /* header */ 
+    .header .header-top{background: #282828;
+    height: 45px;}
